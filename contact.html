@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fansite.css">
+    <title>Accueil</title>
+</head>
+
+<body>
+    <header class="d--flex ai--c jc--sa f--wrap">
+        <nav class="navbar d--flex ">  
+            <ul class="navbar__links d--flex ai--c">   
+                <a href="index.html" aria-label="lien vers info">
+                    <button class="logo" type="submit">
+                        <img class="d--flex as--c" src="images/wow.png" alt="bouton wow" height="40">
+                    </button>
+                </a>
+                <li class="navbar__link d--flex"><a href="index.html" aria-label="lien vers info">Info sur le jeu</a></li>
+                <li class="navbar__link d--flex"><a href="race.html" aria-label="lien vers compte">Race</a></li>
+                <li class="navbar__link d--flex"><a href="extension.html" aria-label="lien vers extension">Extension</a></li>
+                <li class="navbar__link d--flex"><a href="actualite.html" aria-label="lien vers Actualités">Actualités</a></li>
+                <li class="navbar__link d--flex"><a href="contact.html" aria-label="lien vers contact">Contact</a></li>
+            </ul>   
+          </nav>
+    </header>
+
+    <main class="main-contact">
+        <div class="contact-contenair d--flex f--wrap fd--c">
+            <div class="formulaire d--flex ai--c jc--c">
+                <form class="form-contact" method="post">
+                <label for="nom">Nom :</label>
+                <input type="text" name="nom" id="nom" required>
+            
+                <label for="prenom">Prénom :</label>
+                <input type="text" name="prenom" id="prenom" required>
+
+                <label for="pseudo">Pseudo :</label>
+                <input type="text" name="pseudo" id="pseudo" required>
+                
+                <label for="email">E-mail :</label>
+                <input type="email" id="email" name="email" required>
+            
+                <div class="d--flex">
+                <input type="checkbox" name="accepte" id="accepte" required>
+                <label class="accept" for="accepte">J'accepte les conditions d'utilisation</label>
+                </div>
+            
+                <input class="sub" type="submit" value="Valider">
+                </form>
+            </div> 
+        </div>
+    </main>
+
+    <footer class="d--flex jc--sa">
+        <ul class="footer-lien">
+            <li class="navbar__link d--flex"><a href="index.html" aria-label="lien vers info">Info sur le jeu</a></li>
+            <li class="navbar__link d--flex"><a href="race.html" aria-label="lien vers compte">Race</a></li>
+            <li class="navbar__link d--flex"><a href="extension.html" aria-label="lien vers extension">Extension</a></li>
+            <li class="navbar__link d--flex"><a href="actualite.html" aria-label="lien vers Actualités">Actualités</a></li>
+            <li class="navbar__link d--flex"><a href="contact.html" aria-label="lien vers contact">Contact</a></li>
+        </ul>
+        <div class="fan-site">
+            <div>
+                <p>Fan site World of warcraft</p>
+            </div>
+            <div class="icone-footer d--flex ai--c">
+                <a href="https://www.mmo-champion.com/content/" target="_blank"><img src="images/mmo.webp" width="40" height="40" alt="site mmo champion"></a>
+                <a href="https://www.mamytwink.com/" target="_blank"><img src="images/mamy.png" width="40" height="40" alt="site mamytwink"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
